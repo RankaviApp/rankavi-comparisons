@@ -1,0 +1,48 @@
+{
+  "rankavi": {
+    "price": "$15 per mention standalone, or as low as $12 per mention in 50-credit bulk packs",
+    "model": "self-serve signup, API + dashboard, pay-as-you-go, no contract",
+    "focus": "unlinked brand mentions built for AI answer engines (ChatGPT, Perplexity, Google AI Overviews)"
+  },
+  "categories": [
+    "Price per placement",
+    "Contract commitment",
+    "Speed to first placement",
+    "Access model (self-serve vs sales call)",
+    "Transparency and reporting",
+    "AI-search (GEO) focus vs traditional SEO/PR",
+    "Scalability (API/bulk vs manual one-off)"
+  ],
+  "companies": [
+    {"slug": "fractl", "name": "Fractl", "type": "Digital PR agency", "pricing": "No public pricing. Third-party estimates cite $10,000-$15,000/mo retainers, typically 6-month minimum engagements.", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "siege-media", "name": "Siege Media", "type": "SEO content + digital PR agency", "pricing": "No public pricing. Third-party estimates cite $5,000-$15,000/mo for digital PR programs.", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "rise-at-seven", "name": "Rise at Seven", "type": "Digital PR agency (UK)", "pricing": "No public pricing found anywhere on their site.", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "kaizen-seo", "name": "Kaizen SEO", "type": "SEO/digital PR agency (UK)", "pricing": "Published tiers: content packages from £99-399/mo, full SEO retainers £1,495-3,495/mo, link building add-ons £650-5,000+/mo.", "pricing_verified": true, "access": "published pricing page"},
+    {"slug": "userp", "name": "uSERP", "type": "SaaS-focused digital PR + link building agency", "pricing": "Published tiers: Launch $5,500/mo, Accelerate $10,000/mo, Dominate $15,000/mo. Per-link: DR60+ links $600-900 each, DR20-59 links $250-375 each. 6-month minimum engagement.", "pricing_verified": true, "access": "published pricing page, 6-month minimum contract"},
+    {"slug": "amw", "name": "AMW (A Marketing Worldwide)", "type": "Digital PR agency", "pricing": "No public rate card for AMW's own services (their /pricing page is a general industry pricing guide, not their own rates).", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "demand-local", "name": "Demand Local", "type": "Local/national digital PR agency", "pricing": "No public pricing page found.", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "reporter-outreach", "name": "Reporter Outreach", "type": "Digital PR agency", "pricing": "Published tiers: Starter $3,000/mo (7 placements), Growth $6,000/mo (15 placements), Elite $12,000/mo (32 placements). À la carte link insertions: DR50+ $300, DR60+ $400, DR70+ $500.", "pricing_verified": true, "access": "published pricing page"},
+    {"slug": "dig-designs", "name": "Dig Designs", "type": "Digital PR / UX agency", "pricing": "No fixed rate card published; requires custom quote.", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "newmedia", "name": "Newmedia", "type": "Digital marketing / digital PR agency", "pricing": "No rate card published; blog cites broad industry benchmark ranges, not their own charged rates.", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "fatjoe", "name": "FATJOE", "type": "Link building / guest post marketplace", "pricing": "Published per-link pricing: guest posts from ~$83 (DR10+) up to $7,800+ (top-tier media), DR30 link $138, DR50 link $386. Niche edits $81 (DR10+) to $378 (DR50+). Managed packages from $700.", "pricing_verified": true, "access": "self-serve marketplace checkout"},
+    {"slug": "the-hoth", "name": "The HOTH", "type": "SEO / link building marketplace", "pricing": "Published à la carte pricing: Content Syndication $99/campaign, Press Release $150/release, Link Outreach from $175/link (DR20+), Link Insertions $200/insertion, Exclusive Media Links $450/link. Earned Media $3,500/mo, Digital PR $1,500/mo.", "pricing_verified": true, "access": "self-serve checkout for à la carte items, sales call for managed packages"},
+    {"slug": "loganix", "name": "Loganix", "type": "Link building service (agency wholesale)", "pricing": "No confirmed on-site pricing; only a 'from $7' teaser, real pricing gated behind a strategy call.", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "adsy", "name": "Adsy", "type": "Guest post / link marketplace", "pricing": "Published: guest posts from $14, per-publisher marketplace pricing shown before checkout, minimum $25 account top-up.", "pricing_verified": true, "access": "self-serve marketplace"},
+    {"slug": "presswhizz", "name": "PressWhizz", "type": "Link placement marketplace", "pricing": "No single public rate card; marketplace link prices run roughly $50-$1,000+, averaging ~$131.61, most in the $200-$400 range.", "pricing_verified": false, "access": "marketplace, partially self-serve"},
+    {"slug": "outreachz", "name": "Outreachz", "type": "Guest post marketplace", "pricing": "Published package pricing: Starter 5 links $700, Performance 12 links $2,000, Growth 18 links $3,000, Pro 30 links $5,000.", "pricing_verified": true, "access": "published pricing page"},
+    {"slug": "linkforce", "name": "LinkForce", "type": "Guest post marketplace", "pricing": "Shows only a free plan (10 credits/month); paid tier dollar figures are not published, must sign up to see cost.", "pricing_verified": false, "access": "freemium signup, paid pricing gated"},
+    {"slug": "nobsmarketplace", "name": "NoBSMarketplace", "type": "Link marketplace", "pricing": "No flat public price list; individual listing prices visible after free signup. Managed service floor stated as 'from $1,000/mo total budget', with volume discounts at $2,500+ and $10,000+ spend.", "pricing_verified": true, "access": "free account signup required to see individual prices"},
+    {"slug": "page-one-power", "name": "Page One Power", "type": "Link building agency", "pricing": "No dollar figures published; pricing gated behind a lead-gen form for a 'pricing sheet'.", "pricing_verified": false, "access": "sales call / gated pricing sheet"},
+    {"slug": "linkscope", "name": "Linkscope", "type": "Per-link marketplace", "pricing": "Published per-link pricing, no subscription: Guest Posts DR10-30 from $5, DR30-50 from $20, Niche Edits from $15, Premium DR50-80 from $40, DR80+ from $80, .EDU from $30. Volume discounts at $5K+/month agency spend.", "pricing_verified": true, "access": "self-serve, no contract"},
+    {"slug": "featured", "name": "Featured.com", "type": "Journalist-query platform (HARO successor, acquired Terkel and the HARO brand)", "pricing": "Published tiers: Free $0, Lite $29/mo ($348 billed annually), Pro $79/mo ($948 billed annually). Self-serve checkout.", "pricing_verified": true, "access": "self-serve signup, no sales call"},
+    {"slug": "qwoted", "name": "Qwoted", "type": "Verified-source journalist matching platform", "pricing": "Published tiers: Basic free (2 pitches/mo), Pro $149/mo (35 pitches/mo). Teams tier is custom quote.", "pricing_verified": true, "access": "self-serve for Basic/Pro, sales call for Teams"},
+    {"slug": "help-a-b2b-writer", "name": "Help a B2B Writer", "type": "Free source-matching platform for B2B writers", "pricing": "No pricing page found; appears free for both requesters and sources, but not explicitly confirmed.", "pricing_verified": false, "access": "appears free, unconfirmed"},
+    {"slug": "responsesource", "name": "ResponseSource", "type": "UK journalist enquiry / PR outreach platform", "pricing": "Journalist Enquiry Service starts at £625/year per category, plus add-ons (15-min priority service £20, PA distribution £70). Free for journalists.", "pricing_verified": false, "access": "annual subscription, category-based"},
+    {"slug": "profnet", "name": "ProfNet (Cision)", "type": "Expert-source / media outreach platform", "pricing": "No public figures; sliding scale by user count/org type, sales-quote only. Free for journalists.", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "muck-rack", "name": "Muck Rack", "type": "PR / journalist database and outreach platform", "pricing": "No dollar figures published across Starter/Standard/Premier tiers; explicitly quote-gated based on team size.", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "perrill", "name": "Perrill", "type": "GEO/AEO (AI-search visibility) agency", "pricing": "No pricing published for GEO/AEO services specifically.", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "stella-rising", "name": "Stella Rising", "type": "GEO/AEO (AI-search visibility) agency", "pricing": "No pricing published; GEO services typically bundled into broader SEO/content retainers industry-wide.", "pricing_verified": false, "access": "sales call / custom quote"},
+    {"slug": "connectively", "name": "Connectively", "type": "Cision's rebrand of HARO (journalist-source platform, shut down Dec 2024)", "pricing": "No longer operating; included as 'what HARO became' for historical/entity context. Featured.com and Qwoted are the live successors.", "pricing_verified": false, "access": "discontinued"},
+    {"slug": "source-of-sources", "name": "Source of Sources", "type": "Free HARO alternative built by HARO founder Peter Shankman", "pricing": "Free.", "pricing_verified": false, "access": "free, self-serve"}
+  ]
+}
