@@ -1,0 +1,188 @@
+{
+  "docsPath": "docs/",
+  "structure": {
+    "assets": "assets/",
+    "docsTree": [
+      {
+        "path": "api-reference.mdx",
+        "children": [
+          {
+            "path": "api-reference/api-overview.mdx",
+            "children": []
+          },
+          {
+            "path": "api-reference/authentication.mdx",
+            "children": []
+          },
+          {
+            "path": "api-reference/api-resource-template.mdx",
+            "children": [
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-get.mdx",
+                "children": []
+              },
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-post.mdx",
+                "children": []
+              },
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-getid.mdx",
+                "children": []
+              },
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-patch.mdx",
+                "children": []
+              },
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-deleteid.mdx",
+                "children": []
+              },
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-put.mdx",
+                "children": []
+              }
+            ],
+            "isFoldedByDefault": false
+          },
+          {
+            "path": "api-reference/error-codes.mdx",
+            "children": []
+          }
+        ]
+      },
+      {
+        "categoryName": "Comparisons",
+        "isCategory": true,
+        "children": [
+          {
+            "path": "comparisons/adsy-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/amw-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/connectively-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/demand-local-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/dig-designs-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/fatjoe-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/featured-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/fractl-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/help-a-b2b-writer-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/kaizen-seo-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/linkforce-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/linkscope-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/loganix-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/muck-rack-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/newmedia-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/nobsmarketplace-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/outreachz-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/page-one-power-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/perrill-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/presswhizz-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/profnet-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/qwoted-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/reporter-outreach-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/responsesource-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/rise-at-seven-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/siege-media-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/source-of-sources-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/stella-rising-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/the-hoth-vs-rankavi.mdx",
+            "children": []
+          },
+          {
+            "path": "comparisons/userp-vs-rankavi.mdx",
+            "children": []
+          }
+        ]
+      },
+      {
+        "categoryName": "Shadow Docs",
+        "isCategory": true,
+        "children": [],
+        "isShadowDocs": true
+      }
+    ]
+  },
+  "shadowDocs": []
+}

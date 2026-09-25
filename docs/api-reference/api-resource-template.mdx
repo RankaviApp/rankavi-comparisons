@@ -1,0 +1,104 @@
+---
+title: API resource template
+slug: api-resource-template
+icon: {"lucideIcon":"Braces"}
+docTags: 
+createdAt: Mon May 11 2026 14:25:32 GMT+0000 (Coordinated Universal Time)
+---
+
+Use this page as a template for documenting an individual **API resource**. A resource groups one or more related endpoints, helping developers navigate your API more easily.
+
+## Overview
+
+Provide a short description of what this resource represents in your API. Explain its purpose, what type of data it exposes, and why developers would interact with it.
+
+Examples of resources:
+
+- **Users**
+- **Projects**
+- **Payments**
+- **Orders**
+- **Integrations**
+
+## Endpoints in this resource
+
+List all endpoints associated with this resource. Link to each endpoint’s dedicated page.
+
+<LinkArray contentSource="CUSTOM">
+  <LinkArrayItem>
+    :Link[GET /resource]{label="Example endpoint (GET)" spaceId docId="T8yh9cUnehXe-D7Dz7LGn" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel="GET /resource" href="api-resource-template/example-endpoint-get.mdx"}&#x20;
+
+    List or retrieve multiple items.
+  </LinkArrayItem>
+
+  <LinkArrayItem>
+    :Link[POST  /resource]{label="Example endpoint (POST)" spaceId docId="CBYa6i-kYZpQ4bgs48Zvt" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel="POST  /resource" href="api-resource-template/example-endpoint-post.mdx"}&#x20;
+
+    Create a new item.
+  </LinkArrayItem>
+
+  <LinkArrayItem>
+    ****:Link[GET /resource/\{\{id}}]{label="Example endpoint (GET/{{id}})" spaceId docId="DNVsenfti8RHetzYtIzsl" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel="GET /resource/{{id}}" href="api-resource-template/example-endpoint-getid.mdx"}&#x20;
+
+    Retrieve a single item by ID.
+  </LinkArrayItem>
+
+  <LinkArrayItem>
+    :Link[PATCH /resource/\{\{id}}]{label="Example endpoint (PATCH)" spaceId docId="_w9Yr8WXaJdOGKP3Hcpff" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel="PATCH /resource/{{id}}" href="api-resource-template/example-endpoint-patch.mdx"}&#x20;
+
+    Update an existing item.
+  </LinkArrayItem>
+
+  <LinkArrayItem>
+    ****:Link[DELETE /resource/\{\{id}}]{label="Example endpoint (DELETE/{{id}})" spaceId docId="a_2n3MS_MXpbhrIeRwHOV" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel="DELETE /resource/{{id}}" href="api-resource-template/example-endpoint-deleteid.mdx"}&#x20;
+
+    Delete an existing item.
+  </LinkArrayItem>
+
+  <LinkArrayItem>
+    :Link[PUT  /resource/\{\{id}}]{label="Example endpoint (PUT)" spaceId docId="JQ101hcmxoEa7W2-vduKj" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel="PUT  /resource/{{id}}" href="api-resource-template/example-endpoint-put.mdx"}&#x20;
+
+    Replace an existing item completely.
+  </LinkArrayItem>
+</LinkArray>
+
+Replace these with links to your real endpoint pages.
+
+## Data model
+
+Document the structure of this resource. Include field descriptions, data types, constraints, and relationships.
+
+Example:
+
+- `id` – string, unique identifier
+- `name` – string, required
+- `created_at ` – ISO timestamp
+- `status` – enum: `active`, `archived`
+
+Use a table if preferred.
+
+## Example payload
+
+```json
+{
+  "id": "123",
+  "name": "Example item",
+  "created_at": "2024-01-10T12:00:00Z",
+  "status": "active"
+}
+```
+
+## Notes and best practices
+
+Include tips specific to this resource:
+
+- Required permissions or scopes
+- Common validation rules
+- Pagination or filtering behavior
+- Rate‑limit considerations
+
+## What to document next
+
+- Create dedicated pages for each endpoint (GET, POST, PATCH, DELETE)
+- Link them in the **Endpoints in this resource** section
+- Add this resource page to your API Reference navigation
