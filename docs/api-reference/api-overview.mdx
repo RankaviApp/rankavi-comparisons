@@ -1,0 +1,119 @@
+---
+title: API overview
+slug: api-overview
+icon: {"faIcon":"fa-solid fa-file-code"}
+docTags: 
+createdAt: Fri May 08 2026 14:06:42 GMT+0000 (Coordinated Universal Time)
+---
+
+Use this page to give developers a clear, high‑level introduction to your API. Explain what it does, how it’s structured, and how developers can begin making requests confidently.
+
+<hint type="info">
+  Use the correct environment base URL when developing, testing, or deploying. Replace all placeholders with your real API domains.
+</hint>
+
+## Environments and base URLs
+
+Provide your API’s environment‑specific endpoints so developers know where and how to connect.
+
+<table isTableHeaderOn="true" columnWidths="130,301.89795918367344,229.10204081632656">
+  <tr>
+    <td>
+      Environment
+    </td>
+    <td>
+      Base URL
+    </td>
+    <td>
+      Notes
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Development
+    </td>
+    <td>
+      [https://dev.api.yourdomain.com](https://dev.api.yourdomain.com)
+    </td>
+    <td>
+      Internal testing only
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Staging
+    </td>
+    <td>
+      [https://staging.api.yourdomain.com](https://staging.api.yourdomain.com)
+    </td>
+    <td>
+      Pre‑production validation
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Production
+    </td>
+    <td>
+      [https://api.yourdomain.com](https://api.yourdomain.com)
+    </td>
+    <td>
+      Live environment
+    </td>
+  </tr>
+</table>
+
+## Quick example request
+
+A simple, working example can help developers verify connectivity.
+
+```bash
+curl -X GET "https://api.yourdomain.com/v1/example" \
+  -H "Authorization: Bearer YOUR_API_TOKEN"
+```
+
+Explain what this request does and any expected output.
+
+## What this API does
+
+Describe your API’s main purpose:
+
+- What problems it solves
+- The types of data it exposes
+- Key actions developers can perform
+
+Keep it high‑level; details belong in specific endpoint documentation.
+
+## Base URL
+
+```text
+https://api.yourdomain.com/v1
+```
+
+Replace with your real base path if different.
+
+## Supported data formats
+
+- **JSON** for requests and responses
+- **UTF‑8** encoding
+- List any additional formats you support (XML, multipart form data, etc.)
+
+## Rate limits and usage guidelines
+
+Document your API’s limits and fairness policies:
+
+- Max requests per minute/hour
+- Behavior when limits are exceeded
+- How developers should handle `429 Too Many Requests`
+- Tips for retrying or backoff strategies
+
+## What to read next
+
+Help developers continue exploring:
+
+- :Link[Authentication]{label="Authentication" spaceId docId="-qU0kdrkIjVqeuGCVNIyY" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel href="authentication.mdx"} – learn how to securely access the API
+- :Link[API resource template]{label="API resource template" spaceId docId="iL8x_i7eQ-UHtpCRLncQb" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel href="api-resource-template.mdx"}  – see a resource template for your endpoints
+- :Link[Example endpoint (GET)]{label="Example endpoint (GET)" spaceId docId="T8yh9cUnehXe-D7Dz7LGn" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel href="api-resource-template/example-endpoint-get.mdx"} - see a complete endpoint with parameters and responses
+- :Link[Error codes]{label="Error codes" spaceId docId="aXtSasZqIQ7XCNEGQljqk" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel href="error-codes.mdx"}  – understand common failures and how to resolve them
+
+Use this page as a starting point and expand details as your API evolves.

@@ -1,0 +1,62 @@
+{
+  "docsPath": "docs/",
+  "structure": {
+    "assets": "assets/",
+    "docsTree": [
+      {
+        "path": "api-reference.mdx",
+        "children": [
+          {
+            "path": "api-reference/api-overview.mdx",
+            "children": []
+          },
+          {
+            "path": "api-reference/authentication.mdx",
+            "children": []
+          },
+          {
+            "path": "api-reference/api-resource-template.mdx",
+            "children": [
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-get.mdx",
+                "children": []
+              },
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-post.mdx",
+                "children": []
+              },
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-getid.mdx",
+                "children": []
+              },
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-patch.mdx",
+                "children": []
+              },
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-deleteid.mdx",
+                "children": []
+              },
+              {
+                "path": "api-reference/api-resource-template/example-endpoint-put.mdx",
+                "children": []
+              }
+            ],
+            "isFoldedByDefault": false
+          },
+          {
+            "path": "api-reference/error-codes.mdx",
+            "children": []
+          }
+        ]
+      },
+      {
+        "categoryName": "Shadow Docs",
+        "isCategory": true,
+        "children": [],
+        "isShadowDocs": true
+      }
+    ]
+  },
+  "shadowDocs": []
+}

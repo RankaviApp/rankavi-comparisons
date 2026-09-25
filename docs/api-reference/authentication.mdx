@@ -1,0 +1,108 @@
+---
+title: Authentication
+slug: authentication
+icon: {"faIcon":"fa-solid fa-key"}
+docTags: 
+createdAt: Fri May 08 2026 14:06:42 GMT+0000 (Coordinated Universal Time)
+---
+
+Use this page to document how developers should authenticate when calling your API. Provide clear instructions, code samples, and any security considerations they need to be aware of.
+
+<hint type="warning">
+  Access tokens typically expire. Ensure clients refresh or request new tokens according to your authentication flow.
+</hint>
+
+## How authentication works
+
+Give developers a high‑level explanation of your authentication method. Describe:
+
+- Whether you use API keys, OAuth 2.0, JWT tokens, or another method
+- Where tokens are generated or retrieved
+- How long tokens are valid
+- Whether tokens require scopes, roles, or permissions
+- Any IP allowlists or additional security restrictions
+
+Keep this section concise but clear.
+
+## Example requests
+
+Show developers exactly how to authenticate in different languages.
+
+<Tabs>
+  <Tab title="cURL">
+    ```bash
+    curl -X GET "https://api.yourdomain.com/v1/resource" \
+      -H "Authorization: Bearer YOUR_API_TOKEN"
+    ```
+  </Tab>
+
+  <Tab title="JavaScript">
+    ```javascript
+    fetch("https://api.yourdomain.com/v1/resource", {
+      headers: { Authorization: `Bearer ${YOUR_API_TOKEN}` }
+    });
+    ```
+  </Tab>
+
+  <Tab title="Python">
+    ```python
+    import requests
+    requests.get(
+      "https://api.yourdomain.com/v1/resource",
+      headers={"Authorization": "Bearer YOUR_API_TOKEN"}
+    )
+    ```
+  </Tab>
+</Tabs>
+
+## Token structure (if using JWT)
+
+If your API uses JWT‑based authentication, document the token structure so developers understand what’s inside.
+
+```json
+{
+  "sub": "1234567890",
+  "name": "John Doe",
+  "iat": 1516239022,
+  "exp": 1516242622
+}
+```
+
+Explain each field in your real token format.
+
+## Example header
+
+Show developers exactly what the Authorization header should look like.
+
+```text
+Authorization: Bearer YOUR_API_TOKEN
+```
+
+Replace placeholders with your real token format.
+
+## Getting an API key
+
+Explain how developers obtain and manage their tokens:
+
+- Where to generate keys or tokens (dashboard, CLI, etc.)
+- Any required permissions
+- Whether tokens are tied to user accounts or service accounts
+- How to rotate or revoke keys
+
+## Additional security considerations
+
+Include guidance that helps developers use your API securely:
+
+- Never expose tokens in client‑side code
+- Use environment variables for local development
+- Regenerate tokens if compromised
+- Use HTTPS for all requests
+
+## What to read next
+
+Help developers find the next logical references:
+
+- ****:Link[API overview]{label="API overview" spaceId docId="270vrP_F-A7WjpB8RZduv" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel href="api-overview.mdx"} – API structure and base URLs
+- :Link[API resource template]{label="API resource template" spaceId docId="iL8x_i7eQ-UHtpCRLncQb" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel href="api-resource-template.mdx"}  – see a resource template for your endpoints
+- :Link[Example endpoint (GET)]{label="Example endpoint (GET)" spaceId docId="T8yh9cUnehXe-D7Dz7LGn" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel href="api-resource-template/example-endpoint-get.mdx"} - see a complete endpoint with parameters and responses
+- :Link[Error codes]{label="Error codes" spaceId docId="aXtSasZqIQ7XCNEGQljqk" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel href="error-codes.mdx"}  – understand common failures and how to resolve them

@@ -1,0 +1,172 @@
+---
+title: Error codes
+slug: error-codes
+icon: {"faIcon":"fa-solid fa-circle-exclamation"}
+docTags: 
+createdAt: Fri May 08 2026 14:06:42 GMT+0000 (Coordinated Universal Time)
+---
+
+Use this page to document standard API error responses. A clear reference helps developers identify issues quickly and recover efficiently.
+
+<hint type="warning">
+  Provide specific, actionable error messages. Vague responses slow debugging and increase support requests.
+</hint>
+
+## How to use this page
+
+List the most common error responses your API returns. For each one, include:
+
+- **Status code** – The HTTP status
+- **Meaning** – A short explanation of what triggered it
+- **Fix** – What developers should do to resolve or avoid the issue
+
+You can also include example payloads or troubleshooting notes.
+
+***
+
+## Common error codes
+
+<table isTableHeaderOn="true" columnWidths="170,244.94331065759636,246.05668934240364" selectedColumns="" selectedRows="" selectedTable="false">
+  <tr>
+    <td align="left">
+      Status code
+    </td>
+    <td align="left">
+      Meaning
+    </td>
+    <td align="left">
+      Recommended fix
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      **400 – Bad request**
+    </td>
+    <td align="left">
+      The request was malformed or missing fields.
+    </td>
+    <td align="left">
+      Validate inputs and required fields before sending the request.
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      **401 – Unauthorized**
+    </td>
+    <td align="left">
+      Missing or invalid authentication credentials.
+    </td>
+    <td align="left">
+      Refresh or obtain a valid token. Ensure the header is included: `Authorization: Bearer <token>`.
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      **403 – Forbidden**
+    </td>
+    <td align="left">
+      The client does not have permission to perform this request.
+    </td>
+    <td align="left">
+      Check user roles, scopes, or access levels.
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      **404 – Not found**
+    </td>
+    <td align="left">
+      The requested resource does not exist.
+    </td>
+    <td align="left">
+      Verify the resource ID or endpoint path.
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      **409 – Conflict**
+    </td>
+    <td align="left">
+      The request could not be completed due to a state conflict (e.g., duplicate data).
+    </td>
+    <td align="left">
+      Adjust the request or resolve the conflict condition.
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      **429 – Too many requests**
+    </td>
+    <td align="left">
+      Rate limit exceeded.
+    </td>
+    <td align="left">
+      Implement exponential backoff or retry after the provided `Retry‑After` header.
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      **500 – Server error**
+    </td>
+    <td align="left">
+      An unexpected error occurred on the server.
+    </td>
+    <td align="left">
+      Retry the request or contact support if the issue persists.
+    </td>
+  </tr>
+</table>
+
+***
+
+## Error payload examples
+
+Use example JSON bodies so developers know what to expect:
+
+```json
+{
+  "error": "invalid_input",
+  "message": "The provided email address is not valid.",
+  "field": "email"
+}
+```
+
+```json
+{
+  "error": "not_authenticated",
+  "message": "Your token has expired."
+}
+```
+
+```json
+{
+  "error": "rate_limited",
+  "message": "Too many requests. Try again in 30 seconds."
+}
+```
+
+***
+
+## Troubleshooting guidance
+
+Help developers debug efficiently by giving practical steps:
+
+- Reproduce the request using `curl` or your API explorer.
+- Log the request body and headers (being careful to mask tokens).
+- Verify authentication credentials.
+- Check your product’s status page for outages.
+- Inspect common fields such as resource IDs or timestamps.
+
+***
+
+## What to read next
+
+Point developers toward additional references:
+
+## What to read next
+
+Help developers continue exploring:
+
+- :Link[Authentication]{label="Authentication" spaceId docId="-qU0kdrkIjVqeuGCVNIyY" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel href="authentication.mdx"} – For resolving `401` and `403` errors.
+- :Link[API resource template]{label="API resource template" spaceId docId="iL8x_i7eQ-UHtpCRLncQb" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel href="api-resource-template.mdx"}  – To compare expected vs actual request formats.
+- :Link[Example endpoint (GET)]{label="Example endpoint (GET)" spaceId docId="T8yh9cUnehXe-D7Dz7LGn" version="v2" docAnchorId loadingMethod="dynamic" overridedLabel href="api-resource-template/example-endpoint-get.mdx"} - For base URL and environment details.
